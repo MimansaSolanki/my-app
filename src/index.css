@@ -249,19 +249,21 @@ input {
 }
 
 .container {
-  min-width: 20%;
   max-width: 100%;
   display: auto;
 }
 
 .col-sm-3 {
-  background-color: rgb(230, 230, 230);
-  margin-bottom: 10px;
+  background-color: rgb(242, 242, 242);
+  width: 100%;
+  border: 2px;
+  border-color: #212529;
+  padding: 0.5rem;
 }
 
 .heart {
   float: right;
-  margin-top: 10%;
+  margin-top: 1.5rem;
 }
 
 ._3aEWp {
@@ -278,6 +280,22 @@ input {
 }
 
 ._2xBAf{
-  font-size: x-small;
+  font-size: small;
   color: #6c757d;
+}
+
+._2xBAg{
+  font-size: small;
+  color: #6c757d;
+  text-decoration: line-through;
+}
+
+.cyl {
+  text-align: right;
+  float: right;
+}
+
+._3SXwZ {
+  text-align: left;
+  float: left;
 }
