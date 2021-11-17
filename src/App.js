@@ -32,31 +32,73 @@ function App() {
 
   return (
     <div className="container">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
-          <a className="navbar-brand " href="https://consumer-web-ae.qac24svc.dev/ae"><img className="logo" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/42a884476ab8ee4a3642ef07389f1a63.svg" alt="logo" /></a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="https://consumer-web-ae.qac24svc.dev/ae/faq">FAQ</a>
-              </li>
-              <li className="_1inZ-">
-                <a href="tel:042909641" className="_2VLDK">042909641</a><small>  8am - 10pm </small>
-              </li>
-            </ul>
-
-          </div>
+     
+      <nav role="navigation" className="fixed-top navigation">
+        <div>
+          <a href="https://consumer-web-ae.qac24svc.dev/ae"><img src="https://consumer-web-ae.qac24svc.dev/ae/static/js/42a884476ab8ee4a3642ef07389f1a63.svg" alt="CARS24" /></a>
+        </div>
+        <div className="nav">
+          <a href="tel:042909641"><img src="https://consumer-web-ae.qac24svc.dev/ae/static/js/30f825347a79ab9fa31e6c910e1f65ff.svg" alt="Call" /></a>
+          <a href="/"><img src="https://consumer-web-ae.qac24svc.dev/ae/static/js/8dfd970d41879cc53c843f30407d88b8.svg" alt="Wishlist" /></a>
+          <a href="/"><img src="https://consumer-web-ae.qac24svc.dev/ae/static/js/ce8c126471ada82fd3f0245de6e68646.svg" alt="Menu" /></a>
         </div>
       </nav>
-      <div className="container1"><div className="_1_rE8"><nav aria-label="breadcrumb"><ul className="breadcrumb"><li className="breadcrumb-item"><a>Home</a></li><li className="breadcrumb-item">Used Cars in Dubai</li></ul></nav></div></div>
-      <form className="d-flex">
-        <input className="form-control me-2" type="text" placeholder="Find your dream car with us" aria-label="Search" 
+      <div className="container1">
+          <nav aria-label="breadcrumb">
+            <ul className="breadcrumb">
+              <li className="breadcrumb-item1"><a>Home /</a></li>&nbsp;
+              <li className="breadcrumb-item2">Used Cars in Dubai</li>
+            </ul>
+          </nav>
+      </div>
+      
+      <div className="searchbar">     
+        <input className="form-control me-2" type="text" placeholder="Search by Brand or Model" aria-label="Search" 
           onChange = {event => {setSearchTerm(event.target.value)}}
         />
-      </form>
+        <div className="Kf4mu"><img src="https://consumer-web-ae.qac24svc.dev/ae/static/js/d0f958c97927ea86367b564574ce6790.svg" alt="Sort By Icon"/></div>
+      </div>
+
+      <ul className="ulitems">
+      <li className="_31V8b"><span>Make / Model</span>
+      <img className="rotate" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/6fae39b71885d4edcd60fe0f00851390.svg"/>
+      </li>
+      <li className="_31V8b"><span>Price / Finance</span>
+      <img className="rotate" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/6fae39b71885d4edcd60fe0f00851390.svg"/>
+      </li>
+      <li className="_31V8b"><span>Year</span>
+      <img className="rotate" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/6fae39b71885d4edcd60fe0f00851390.svg"/>
+      </li>
+      <li className="_31V8b"><span>Body Type</span>
+      <img className="rotate" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/6fae39b71885d4edcd60fe0f00851390.svg"/>
+      </li>
+      <li className="_31V8b"><span>Mileage</span>
+      <img className="rotate" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/6fae39b71885d4edcd60fe0f00851390.svg"/>
+      </li>
+      <li className="_31V8b"><span>Colour</span>
+      <img className="rotate" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/6fae39b71885d4edcd60fe0f00851390.svg"/>
+      </li>
+      <li className="_31V8b"><span>Fuel Type</span>
+      <img className="rotate" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/6fae39b71885d4edcd60fe0f00851390.svg"/>
+      </li>
+      <li className="_31V8b"><span>Transmission</span>
+      <img className="rotate" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/6fae39b71885d4edcd60fe0f00851390.svg"/>
+      </li>
+      <li className="_31V8b"><span>Discount</span>
+      <img className="rotate" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/6fae39b71885d4edcd60fe0f00851390.svg"/>
+      </li>
+      <li className="_31V8b"><span>Engine</span>
+      <img className="rotate" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/6fae39b71885d4edcd60fe0f00851390.svg"/>
+      </li>
+      <li className="_31V8b"><span>Doors & Seats</span>
+      <img className="rotate" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/6fae39b71885d4edcd60fe0f00851390.svg"/>
+      </li>
+      <li className="_31V8b"><span>Option Type</span>
+      <img className="rotate" src="https://consumer-web-ae.qac24svc.dev/ae/static/js/6fae39b71885d4edcd60fe0f00851390.svg"/>
+      </li>
+      </ul>
+      
+
       <h1 className="qf_dm">Used Cars In Dubai</h1>
       <InfiniteScroll
         pageStart={0}
@@ -89,16 +131,17 @@ function App() {
                     <img src="https://consumer-web-ae.qac24svc.dev/ae/static/js/e8333986534ba8a423ce86582be0003d.svg" />
                   </Typography>
                   <Typography gutterBottom>
-                    <h4>{item.year} {item.make} {item.model}</h4>
-                    <h6><b>{item.variant}</b> |<span>  GCC Specifications</span></h6>
+                    <h2 className="make_model">{item.year} {item.make} {item.model}</h2>
+                    <p className="desc"><b>{item.variant} |</b>
+                    <span>  GCC Specifications</span></p>
                     <br/>
                   </Typography>
                   
                   <Typography>
-                    <img src="https://consumer-web-ae.qac24svc.dev/ae/static/js/15bbe7d4f9e51f5043535857c52d7336.svg" />
-                    <span> {item.odometerReading} km</span>
-                    <div className="cyl">
-                      <img src="https://consumer-web-ae.qac24svc.dev/ae/static/js/5570637da94bead30f0c65f9faca1c5e.svg" />
+                    <img src="https://consumer-web-ae.qac24svc.dev/ae/static/js/15bbe7d4f9e51f5043535857c52d7336.svg" alt="abc"/>
+                    <span className="text"> {item.odometerReading} km</span>
+                    <div className="cyl text">
+                      <img src="https://consumer-web-ae.qac24svc.dev/ae/static/js/5570637da94bead30f0c65f9faca1c5e.svg" alt="abc"/>
                       <span>{item.noOfCylinders}cyl{item.engineSize}L </span>
                     </div>
                     <hr />
