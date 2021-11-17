@@ -6,6 +6,7 @@
 }
 
 body {
+  margin-top: 4rem;
   margin-left: 10px;
   margin-right: 10px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -152,71 +153,23 @@ code {
 }
 
 .form-control {
-  margin-left: 4%;
-  display: inline-block;
-  width: 90%;
-  padding: 10;
+  width: 100%;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
   background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: .25rem;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .qf_dm {
-  margin-left: 4%;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent;
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-  text-align: left;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline;
   font-family: Roboto,sans-serif;
-  margin-top: 32px;
-  padding: 35px 0;
+  margin-top: 4.5rem;
+  padding: 20px 0;
   border-top: 1px solid #dde5eb;
   margin-bottom: 0;
   font-size: 24px;
-  font-weight: 500;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 24px;
   color: #465166;
+  font-weight: 700;
 }
 
 input {
@@ -305,3 +258,131 @@ input {
   margin-bottom: 20px;
   box-shadow: 0px 2px 3px 3px #f0eded;
 }
+
+.Kf4mu {
+border: 1px solid #dde5eb;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+border-radius: 5px;
+height: 36px;
+width: 36px;
+display: flex;
+justify-content: center;
+-ms-flex-align: center;
+align-items: center;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.searchbar {
+  display: flex;
+  width: 100%;
+}
+
+.make_model {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #465166;
+  width: calc(100% - 30px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+ .desc {
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #465166;
+ }
+
+ .text {
+  color: #465166;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0;
+  width: 50%;
+ }
+
+ .navigation {
+   width: 100%;
+   background: #fff;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
+   justify-content: space-between;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   padding: 15px 20px;
+ }
+
+ .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+ }
+
+ .breadcrumb-item1 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #465166;
+  display: inline;
+ }
+
+ .breadcrumb-item2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #465166;
+  display: inline;
+ }
+
+ ._31V8b {
+  margin-right: 12px;
+  width: 100%;
+  padding: 6px 8px 6px 12px;
+  background: #fff;
+  border: 1px solid #dde5eb;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #465166;
+  display: block;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+ }
+
+ .ulitems {
+  padding: 0 15px 16px;
+  margin-top: 1rem;
+  margin-left: 4px;
+  list-style: none;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  transition: all .2s;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+ }
+
+ .rotate {
+   transform: rotate(90deg);
+ }
